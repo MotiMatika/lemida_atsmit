@@ -19,8 +19,16 @@
 
 
 #גירסה קצרה
-def biggest (a,b,c):
-    max_number = max(a,b,c)
-    return max_number
+# def biggest (a,b,c):
+#     max_number = max(a,b,c)
+#     return max_number
 
-print(biggest(1,12,33))
+# print(biggest(1,12,33))
+
+
+def biggest1(a,b,c):
+    max_1 = max(a,b,c)
+    return(max_1)
+biggest1(1,2,3)
+
+
