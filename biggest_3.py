@@ -26,9 +26,18 @@
 # print(biggest(1,12,33))
 
 
-def biggest1(a,b,c):
+def biggest1_3(a,b,c):
     max_1 = max(a,b,c)
     return(max_1)
-biggest1(1,2,3)
+A=biggest1_3(1,20,3)
 
+def biggest4_6(a,b,c):
+    max_2 = max(a,b,c)
+    return(max_2)
+B=biggest4_6(59,6,78)
 
+def biggest1_6(A,B):
+    maxx = max(A,B)
+    return maxx
+C=biggest1_6(A,B)
+print(C)
